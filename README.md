@@ -1,6 +1,6 @@
-# Personal-AI-NeuralNetworks-FeedForward
-
-Feed Forward Network designed to predict aviation prices.
+# Neural Networks
+# Part 1: Feed Forward on Aviation Pricing
+See code for implementation.  More details shown below:</br>
 
 Loss function after standardization and ~20 epochs: ~0.07
 
@@ -21,3 +21,17 @@ The various features of the cleaned dataset are explained below:
 9) Duration: A continuous feature that displays the overall amount of time it takes to travel between cities in hours.
 10)Days Left: This is a derived characteristic that is calculated by subtracting the trip date by the booking date.
 11) Price: Target variable stores information of the ticket price.
+
+
+# Part 2: LSTM on Great Expectations Textual Analysis
+See code for implementation.  More details shown below:</br>
+LSTM used to generate text from Great Expectations.  The first eight chapters were used for data preparation.  Full Text Data: https://www.gutenberg.org/ebooks/search/%3Fsort_order%3Ddownloads
+
+Sample Output:
+
+Random Sampled Text:
+"wning at me over her work, 'what a questioner he is. ask no questions, and you’ll be told no lies.'"
+
+
+Generated Text from Random Sampled Text:
+i thought the courtering to see hot than the chatcct the coatse le alonsed the pea of the table
